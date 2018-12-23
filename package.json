@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "format": "prettier --write .prettierrc *.json **/*.{html,css,js}",
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "csso": "^3.5.1",
+    "postcss-preset-env": "^6.5.0",
+    "prettier": "^1.15.3",
+    "rollup": "^0.68.1",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-pluginutils": "^2.3.3",
+    "terser": "^3.13.1"
+  }
+}
